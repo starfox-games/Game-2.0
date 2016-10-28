@@ -129,7 +129,7 @@
     <instance objName="obj_enemy_slime" x="192" y="256" name="inst_45656854" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_enemy_slime" x="64" y="288" name="inst_024D0C13" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_new" x="64" y="150" name="inst_5DE74EFC" locked="0" code="" scaleX="0.629999995231628" scaleY="0.615384638309479" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turtle" x="102" y="155" name="inst_9886F6F6" locked="0" code="" scaleX="2.33333325386047" scaleY="2.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turtle" x="101" y="167" name="inst_9886F6F6" locked="0" code="" scaleX="2.33333325386047" scaleY="2.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
