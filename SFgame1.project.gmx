@@ -24,8 +24,6 @@
     </sprites>
     <sprite>sprites\spr_damage</sprite>
     <sprite>sprites\spr_expr</sprite>
-    <sprite>sprites\sprite16</sprite>
-    <sprite>sprites\rtetertert</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
