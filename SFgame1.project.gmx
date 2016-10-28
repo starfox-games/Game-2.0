@@ -26,6 +26,7 @@
     <sprite>sprites\spr_expr</sprite>
     <sprite>sprites\sprite16</sprite>
     <sprite>sprites\rtetertert</sprite>
+    <sprite>sprites\sprite18</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
