@@ -10,6 +10,8 @@
     <sprite>sprites\spr_slime</sprite>
     <sprite>sprites\spr_slime_big</sprite>
     <sprite>sprites\spr_damage</sprite>
+    <sprite>sprites\spr_player_new</sprite>
+    <sprite>sprites\spr_turtle</sprite>
     <sprite>sprites\spr_expr</sprite>
     <sprite>sprites\spr_expr_2_0</sprite>
     <sprites name="Player">
@@ -28,8 +30,7 @@
       <sprite>sprites\spr_hpbarbg</sprite>
       <sprite>sprites\spr_hpbar</sprite>
     </sprites>
-    <sprite>sprites\spr_player_new</sprite>
-    <sprite>sprites\spr_turtle</sprite>
+    <sprite>sprites\spr_sign</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -78,6 +79,7 @@
       <object>objects\obj_text_many_slimes</object>
     </objects>
     <object>objects\obj_exp_2_0</object>
+    <object>objects\obj_sign</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
