@@ -32,7 +32,7 @@ spd=.7;
 hp = 30;
 MaxHp = 30;
 alarm[0]=room_speed*irandom_range(2,5);
-sight=100;   //za range na zasichane na player
+sight=150;   //za range na zasichane na player
 targetx=0;
 targety=0;
 </string>

@@ -6,7 +6,7 @@ if(len==0)
 dir=face*90;
 }
 
-len = 12;
+len = 10;
 
 //horizontal i vertical speed
 hspd = lengthdir_x(len,dir);
