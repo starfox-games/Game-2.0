@@ -37,6 +37,7 @@ image_speed = 0;
 scr_get_input();
 state = scr_move_state;
 face = RIGHT;
+sprint=2;
 
 </string>
           </argument>
@@ -95,8 +96,51 @@ if(obj_player_stats.hp&lt;=0)
     //instance_create(x,y,obj_player);
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_exp_2_0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///collect exp
+with (other) 
+{instance_destroy();
+}
 
+//level up
+with (obj_player_stats)
+{
 
+expr +=8;
+
+if(expr &gt;= maxexpr)
+    {
+        obj_player_stats.level += 1;
+        obj_player_stats.expr=expr-maxexpr;
+        obj_player_stats.maxexpr*=2;
+        obj_player_stats.hp +=2;
+        obj_player_stats.max_hp +=2;
+        obj_player_stats.stamina+=2;
+        obj_player_stats.maxstamina+=2;
+        obj_player_stats.attack+=2;
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -243,6 +287,54 @@ instance_create(x, y, obj_player);
 instance_destroy();
 }
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///sprint
+
+spd=spd*sprint;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spd=spd/sprint;
 </string>
           </argument>
         </arguments>
