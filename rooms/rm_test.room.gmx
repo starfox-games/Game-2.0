@@ -125,7 +125,7 @@
     <instance objName="obj_text_many_slimes" x="953" y="709" name="inst_825B1030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_big" x="1144" y="111" name="inst_3EB14418" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sign" x="244" y="795" name="inst_8D46903E" locked="0" code="" scaleX="0.689999997615814" scaleY="0.740000009536743" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sword" x="315" y="735" name="inst_A5078F78" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sword" x="288" y="793" name="inst_A5078F78" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>

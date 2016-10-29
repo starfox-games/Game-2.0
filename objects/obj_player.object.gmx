@@ -124,7 +124,7 @@ if(obj_player_stats.hp&lt;=0)
 
 with (obj_player_stats)
 {
-    obj_player_stats.attack+=5;
+    obj_player_stats.attack+=3;
 }
 
 </string>
