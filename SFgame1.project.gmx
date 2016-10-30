@@ -12,6 +12,7 @@
     <sprite>sprites\spr_damage</sprite>
     <sprite>sprites\spr_player_new</sprite>
     <sprite>sprites\spr_turtle</sprite>
+    <sprite>sprites\spr_turtle_dead</sprite>
     <sprite>sprites\spr_expr</sprite>
     <sprite>sprites\spr_expr_2_0</sprite>
     <sprites name="Player">
@@ -79,9 +80,9 @@
     <object>objects\obj_exp_2_0</object>
     <object>objects\obj_sign</object>
     <objects name="Texts">
-      <object>objects\obj_text_textures</object>
+      <object>objects\obj_text_texture_room</object>
       <object>objects\obj_text_big_guy</object>
-      <object>objects\obj_text_many_slimes</object>
+      <object>objects\obj_text_slimes</object>
     </objects>
   </objects>
   <rooms name="rooms">
