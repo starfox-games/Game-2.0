@@ -34,6 +34,7 @@
       <sprite>sprites\spr_hpbar</sprite>
     </sprites>
     <sprite>sprites\spr_chicken_buff</sprite>
+    <sprite>sprites\spr_arrow</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -75,6 +76,7 @@
     <object>objects\obj_exp</object>
     <object>objects\obj_player_new</object>
     <object>objects\obj_turtle</object>
+    <object>objects\obj_chicken_buff</object>
     <object>objects\obj_slime_big</object>
     <object>objects\obj_sword</object>
     <object>objects\obj_exp_2_0</object>
@@ -82,9 +84,11 @@
     <objects name="Texts">
       <object>objects\obj_text_texture_room</object>
       <object>objects\obj_text_big_guy</object>
+      <object>objects\obj_text_speed_buff</object>
+      <object>objects\obj_text_dmg_buff</object>
       <object>objects\obj_text_slimes</object>
     </objects>
-    <object>objects\obj_chicken_buff</object>
+    <object>objects\obj_arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
