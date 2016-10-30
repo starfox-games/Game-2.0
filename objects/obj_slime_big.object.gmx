@@ -106,7 +106,6 @@ draw_healthbar(x - 20, y - 29, x + 20, y - 35, pc, c_black, c_red, c_lime, 1, tr
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-<<<<<<< HEAD
     <point>74.25,10.75</point>
     <point>92,36</point>
     <point>65.5,51.5</point>
@@ -115,14 +114,5 @@ draw_healthbar(x - 20, y - 29, x + 20, y - 35, pc, c_black, c_red, c_lime, 1, tr
     <point>16.5,27.25</point>
     <point>36,12</point>
     <point>52,4</point>
-=======
-    <point>68,8</point>
-    <point>88,40</point>
-    <point>64,48</point>
-    <point>32,48</point>
-    <point>12,32</point>
-    <point>32,16</point>
-    <point>48,8</point>
->>>>>>> origin/master
   </PhysicsShapePoints>
 </object>
