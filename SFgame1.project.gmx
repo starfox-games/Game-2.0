@@ -33,6 +33,7 @@
       <sprite>sprites\spr_hpbarbg</sprite>
       <sprite>sprites\spr_hpbar</sprite>
     </sprites>
+    <sprite>sprites\spr_chicken_buff</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -83,6 +84,7 @@
       <object>objects\obj_text_big_guy</object>
       <object>objects\obj_text_slimes</object>
     </objects>
+    <object>objects\obj_chicken_buff</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

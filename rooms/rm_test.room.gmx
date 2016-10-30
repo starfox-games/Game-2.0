@@ -77,14 +77,12 @@
     <instance objName="obj_player_new" x="289" y="606" name="inst_6C90F6C2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_new" x="211" y="599" name="inst_9603CD4C" locked="0" code="" scaleX="1.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_player_new" x="116" y="589" name="inst_A9A8114B" locked="0" code="" scaleX="2" scaleY="2" colour="4294967295" rotation="0"/>
-    <instance objName="obj_turtle" x="128" y="800" name="inst_6F377768" locked="0" code="" scaleX="4.125" scaleY="5.375" colour="4294967295" rotation="0"/>
+    <instance objName="obj_turtle" x="364" y="600" name="inst_6F377768" locked="0" code="" scaleX="4.125" scaleY="5.375" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="684" y="222" name="inst_B1ABD7D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="1360" y="203" name="inst_79C10077" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="1157" y="350" name="inst_E7CFBF1B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="1340" y="691" name="inst_C7C704D8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="881" y="820" name="inst_A4EEF19D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="67" y="236" name="inst_5DFA9B20" locked="0" code="" scaleX="10" scaleY="2.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="295" y="9" name="inst_8EA08C86" locked="0" code="" scaleX="2.86999988555908" scaleY="7.6875" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="113" y="375" name="inst_3BADE30A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="184" y="402" name="inst_5A5AAC8C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_turtle" x="301" y="385" name="inst_27DDBBBB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -124,8 +122,9 @@
     <instance objName="obj_text_big_guy" x="678" y="612" name="inst_AB0DA624" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text_slimes" x="953" y="709" name="inst_825B1030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_big" x="1144" y="111" name="inst_3EB14418" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sign" x="244" y="795" name="inst_8D46903E" locked="0" code="" scaleX="0.689999997615814" scaleY="0.740000009536743" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sword" x="288" y="793" name="inst_A5078F78" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sign" x="233" y="788" name="inst_8D46903E" locked="0" code="" scaleX="0.689999997615814" scaleY="0.740000009536743" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sword" x="91" y="686" name="inst_A5078F78" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_chicken_buff" x="89" y="737" name="inst_8CB71619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
