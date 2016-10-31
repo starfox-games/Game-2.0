@@ -35,6 +35,7 @@
     </sprites>
     <sprite>sprites\spr_chicken_buff</sprite>
     <sprite>sprites\spr_arrow</sprite>
+    <sprite>sprites\spr_fireball</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -79,6 +80,7 @@
     <object>objects\obj_chicken_buff</object>
     <object>objects\obj_slime_big</object>
     <object>objects\obj_sword</object>
+    <object>objects\obj_fireball</object>
     <object>objects\obj_exp_2_0</object>
     <object>objects\obj_sign</object>
     <objects name="Texts">
