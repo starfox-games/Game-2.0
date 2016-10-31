@@ -32,6 +32,7 @@
       <sprite>sprites\spr_hpbarinner</sprite>
       <sprite>sprites\spr_hpbarbg</sprite>
       <sprite>sprites\spr_hpbar</sprite>
+      <sprite>sprites\spr_stambar</sprite>
     </sprites>
     <sprite>sprites\spr_chicken_buff</sprite>
     <sprite>sprites\spr_arrow</sprite>

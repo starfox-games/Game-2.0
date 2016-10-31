@@ -28,7 +28,7 @@
             <string>///player stats
 hp=20;
 max_hp=20;
-stamina=15;
+stamina=30;
 maxstamina=stamina;
 level=1;
 expr=0;

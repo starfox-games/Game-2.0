@@ -28,6 +28,7 @@
             <string>
 event_inherited();
 spd=2;
+maxspd=spd;
 hspd=0; //horizontal speed
 vspd=0; //vertical speed
 len=0; //lenght
@@ -38,6 +39,8 @@ scr_get_input();
 state = scr_move_state;
 face = RIGHT;
 sprint=2;
+
+
 
 </string>
           </argument>
@@ -119,34 +122,21 @@ if(obj_player_stats.hp&lt;=0)
     instance_destroy();
     //instance_create(x,y,obj_player);
 }
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="4" ename="obj_chicken_buff">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>with (other) 
-{instance_destroy();
+if(obj_player_stats.stamina&gt;0 &amp;&amp; sprint==1)
+{
+obj_player_stats.stamina-=2;
+spd+=3;
+if(spd&gt;6)
+{
+spd -=3;
 }
-    spd+=2;
-    alarm[1]=room_speed*10;
+}
+else
+{
+sprint=0;
+spd=maxspd;
+}
+
 
 </string>
           </argument>
@@ -246,6 +236,34 @@ with (obj_player_stats)
 {
     obj_player_stats.attack+=3;
 }
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_chicken_buff">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>with (other) 
+{instance_destroy();
+}
+    spd+=2;
+    alarm[1]=room_speed*10;
 
 </string>
           </argument>
@@ -417,7 +435,9 @@ instance_destroy();
             <kind>1</kind>
             <string>///sprint
 
-spd=spd+1;
+sprint=1;
+
+
 </string>
           </argument>
         </arguments>
@@ -440,7 +460,8 @@ spd=spd+1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spd=spd-1;
+            <string>sprint=0;
+
 </string>
           </argument>
         </arguments>
