@@ -66,13 +66,15 @@ phy_fixed_rotation = true;
         <exetype>2</exetype>
         <functionname></functionname>
         <codestring></codestring>
-        <whoName>self</whoName>
+        <whoName>other</whoName>
         <relative>0</relative>
         <isnot>0</isnot>
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (distance_to_point(obj_player.x, obj_player.y)&lt;4)
+            <string>if(instance_exists(obj_player))
+{
+if (distance_to_point(obj_player.x, obj_player.y)&lt;4)
 {
 draw_self();
 draw_set_valign(fa_bottom);
@@ -80,6 +82,7 @@ draw_set_halign(fa_center);
 draw_text(x,bbox_top,"Welcome to the Pre-Alpha!");
 }
 draw_self();
+}
 </string>
           </argument>
         </arguments>

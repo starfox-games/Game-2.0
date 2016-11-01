@@ -28,7 +28,7 @@
             <string>
 event_inherited();
 spd=2;
-maxspd=spd;
+maxspd=2;
 hspd=0; //horizontal speed
 vspd=0; //vertical speed
 len=0; //lenght
@@ -126,7 +126,7 @@ if(obj_player_stats.stamina&gt;0 &amp;&amp; sprint==1)
 {
 obj_player_stats.stamina-=2;
 spd+=3;
-if(spd&gt;6)
+if(spd&gt;6 &amp;&amp; sprint==1)
 {
 spd -=3;
 }
