@@ -28,7 +28,7 @@
             <string>
 event_inherited();
 spd=2;
-maxspd=2;
+maxspd=spd;
 hspd=0; //horizontal speed
 vspd=0; //vertical speed
 len=0; //lenght
@@ -39,6 +39,7 @@ scr_get_input();
 state = scr_move_state;
 face = RIGHT;
 sprint=2;
+chickenbuff=0;
 
 
 
@@ -122,20 +123,7 @@ if(obj_player_stats.hp&lt;=0)
     instance_destroy();
     //instance_create(x,y,obj_player);
 }
-if(obj_player_stats.stamina&gt;0 &amp;&amp; sprint==1)
-{
-obj_player_stats.stamina-=2;
-spd+=3;
-if(spd&gt;6 &amp;&amp; sprint==1)
-{
-spd -=3;
-}
-}
-else
-{
-sprint=0;
-spd=maxspd;
-}
+
 
 
 </string>
@@ -263,6 +251,7 @@ with (obj_player_stats)
 {instance_destroy();
 }
     spd+=2;
+    chickenbuff=1;
     alarm[1]=room_speed*10;
 
 </string>
@@ -310,6 +299,54 @@ if(expr &gt;= maxexpr)
         obj_player_stats.attack+=2;
     }
 }
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="5" enumb="72">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>spd+=2;
+obj_player_stats.stamina-=1.5;
+if(chickenbuff!=1)
+{
+if(spd&gt;4)
+{
+spd=4;
+}
+}
+else
+{
+if(spd&gt;6)
+{
+spd=6;
+}
+}
+if(keyboard_check_released(ord("H")) || obj_player_stats.stamina&lt;10)
+{
+spd-=2;
+if(spd&lt;2)
+{
+spd=2;
+}
+}
+
+
 </string>
           </argument>
         </arguments>
@@ -410,57 +447,6 @@ obj_player_stats.hp=obj_player_stats.max_hp;
 instance_create(x, y, obj_player);
 instance_destroy();
 }
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="9" enumb="72">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>///sprint
-
-sprint=1;
-
-
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="10" enumb="72">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>sprint=0;
 
 </string>
           </argument>
