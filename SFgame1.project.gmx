@@ -85,6 +85,7 @@
     <object>objects\obj_exp_2_0</object>
     <object>objects\obj_arrow</object>
     <object>objects\obj_sign</object>
+    <object>objects\obj_npc1</object>
     <objects name="Texts">
       <object>objects\obj_text_texture_room</object>
       <object>objects\obj_text_big_guy</object>
