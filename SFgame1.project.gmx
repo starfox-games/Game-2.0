@@ -83,6 +83,7 @@
     <object>objects\obj_sword</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_exp_2_0</object>
+    <object>objects\obj_arrow</object>
     <object>objects\obj_sign</object>
     <objects name="Texts">
       <object>objects\obj_text_texture_room</object>
@@ -91,7 +92,6 @@
       <object>objects\obj_text_dmg_buff</object>
       <object>objects\obj_text_slimes</object>
     </objects>
-    <object>objects\obj_arrow</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

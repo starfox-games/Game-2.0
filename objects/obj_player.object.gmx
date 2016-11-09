@@ -67,6 +67,7 @@ chickenbuff=0;
             <kind>1</kind>
             <string>
 spd-=2;
+chickenbuff=0;
 </string>
           </argument>
         </arguments>
@@ -323,29 +324,25 @@ if(expr &gt;= maxexpr)
             <kind>1</kind>
             <string>spd+=2;
 obj_player_stats.stamina-=1.5;
-if(chickenbuff!=1)
+
+if(chickenbuff=0)
 {
-if(spd&gt;4)
+    if(spd&gt;4)
+    {
+    spd=4;
+    }
+}
+    else
 {
-spd=4;
+    if(spd&gt;6)
+    {
+    spd=6;
+    }
 }
-}
-else
-{
-if(spd&gt;6)
-{
-spd=6;
-}
-}
-if(keyboard_check_released(ord("H")) || obj_player_stats.stamina&lt;10)
+if(keyboard_check_released(ord("H")) || obj_player_stats.stamina&lt;=0)
 {
 spd-=2;
-if(spd&lt;2)
-{
-spd=2;
 }
-}
-
 
 </string>
           </argument>
