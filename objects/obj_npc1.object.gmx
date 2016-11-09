@@ -68,6 +68,8 @@ message_length = string_length(message[message_current]); //get the number of ch
           <argument>
             <kind>1</kind>
             <string>depth=-y;
+if (instance_exists(obj_player))
+{
 if distance_to_point(obj_player.x, obj_player.y) &lt; 5
 {
 if (characters &lt; message_length) { //if current character count is less than the amount in current message* 
@@ -87,6 +89,7 @@ else { //if current character is more than the amount in the current message
             instance_destroy(); //destroy the object
         }
     }
+}
 }
 }
 </string>
@@ -131,9 +134,9 @@ draw_self();
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>2,16</point>
-    <point>30,16</point>
-    <point>30,40</point>
-    <point>2,40</point>
+    <point>6.5,18.75</point>
+    <point>15,18.75</point>
+    <point>15,38.625</point>
+    <point>6.5,38.625</point>
   </PhysicsShapePoints>
 </object>
