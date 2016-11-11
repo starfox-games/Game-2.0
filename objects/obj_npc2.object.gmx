@@ -8,6 +8,38 @@
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
+    <event eventtype="0" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>message[0] = "Hello there!";
+message[1] = "I hope you are having #fun testing this game!";
+message[2] = "Make sure to #come every few days!";
+message[3] = "Updates are rolling on #a regular basis!";
+message[4] = "Let's hope we get to #add a real sprite for me...";
+message[5] = "Anyways, talk to Stenli #if you have any ideas!";
+message[6] = "About this textbox system.";
+
+message_current = 0; //0 is the first number in our array, and the message we are currently at
+message_end = 6; //6 is the last number in our array
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
     <event eventtype="3" enumb="0">
       <action>
         <libid>1</libid>
@@ -31,20 +63,25 @@ if(distance_to_point(obj_player.x,obj_player.y) &lt; 4)
 {
 if(keyboard_check_pressed(ord("X")))
 {
-var str;
-switch (irandom(4))
+if(message_current &lt; message_end)
 {
-case 0 : str = "Check out that big slime #guy over there!";break;
-case 1 : str = "Have you played with the #jellies in the test forest?";break;
-case 2 : str = "Welcome to the world #of game-making!";break;
-case 3 : str = "I have heard there's an easter egg here!";break;
-default : str = "How did you do this?";break;
+obj_player.spd = 0;
+obj_player_stats.stamina = 0;
+obj_player_stats.maxstamina = 0;
+scr_text(message[message_current],1,view_xview + 100,view_yview + 170);
+message_current+=1;
 }
-scr_text(str,1,view_xview + 100,view_yview + 170);
+else
+if(message_current &gt;= message_end)
+{
+obj_player.spd = 2;
+obj_player_stats.maxstamina = 40;
+obj_player_stats.stamina = obj_player_stats.maxstamina;
+instance_destroy();
 }
 }
 }
-alarm[0]=3;
+}
 
 
 

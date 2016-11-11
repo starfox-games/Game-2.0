@@ -29,7 +29,7 @@
 hp=20;
 max_hp=20;
 stamina=40;
-maxstamina=stamina;
+maxstamina=40;
 level=1;
 expr=0;
 maxexpr=3;
