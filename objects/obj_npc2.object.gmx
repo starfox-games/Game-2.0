@@ -77,7 +77,7 @@ if(message_current &gt;= message_end)
 obj_player.spd = 2;
 obj_player_stats.maxstamina = 40;
 obj_player_stats.stamina = obj_player_stats.maxstamina;
-instance_destroy();
+message_current = 0;
 }
 }
 }
