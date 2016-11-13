@@ -40,6 +40,9 @@ state = scr_move_state;
 face = RIGHT;
 sprint=2;
 chickenbuff=0;
+canmove=1
+moving=0
+
 
 
 
@@ -124,6 +127,18 @@ if(obj_player_stats.hp&lt;=0)
     instance_destroy();
     //instance_create(x,y,obj_player);
 }
+if(global.pause=true)
+{
+obj_player.spd=0;
+obj_player_stats.stamina=0;
+obj_player_stats.maxstamina=0;
+}
+
+
+
+
+
+
 
 
 
@@ -322,7 +337,9 @@ if(expr &gt;= maxexpr)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>spd+=2;
+            <string>if(global.pause=false)
+{
+spd+=2;
 obj_player_stats.stamina-=1.5;
 
 if(chickenbuff=0)
@@ -343,7 +360,7 @@ if(keyboard_check_released(ord("H")) || obj_player_stats.stamina&lt;=0)
 {
 spd-=2;
 }
-
+}
 </string>
           </argument>
         </arguments>
@@ -418,6 +435,8 @@ draw_self();
           </argument>
         </arguments>
       </action>
+    </event>
+    <event eventtype="9" enumb="90">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -434,17 +453,13 @@ draw_self();
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(obj_player_stats.hp==0)
+            <string>switch(direction)
 {
-draw_set_halign(fa_center);
-draw_set_valign(fa_middle);
-image_angle += 1;
-draw_text_transformed(room_width / 2, room_height / 2, "Respawning...", 2, 2, image_angle);
-obj_player_stats.hp=obj_player_stats.max_hp;
-instance_create(x, y, obj_player);
-instance_destroy();
+  case 0: a=instance_position(x+16,y,obj_npc); if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
+  case 90: a=instance_position(x,y-16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
+  case 180: a=instance_position(x-16,y,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
+  case 270: a=instance_position(x,y+16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
 }
-
 </string>
           </argument>
         </arguments>

@@ -4,7 +4,16 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_voicelow</sound>
+    <sound>sound\snd_voicemid</sound>
+    <sound>sound\snd_voicethought</sound>
+    <sound>sound\snd_button</sound>
+    <sound>sound\snd_talkinit</sound>
+    <sound>sound\snd_click</sound>
+    <sound>sound\snd_textboxclose</sound>
+    <sound>sound\snd_voicehigh</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
     <sprite>sprites\spr_slime</sprite>
@@ -18,6 +27,10 @@
     <sprite>sprites\spr_chicken_buff</sprite>
     <sprite>sprites\spr_turtle_dead</sprite>
     <sprite>sprites\spr_expr</sprite>
+    <sprite>sprites\spr_namebox</sprite>
+    <sprite>sprites\spr_questionbox</sprite>
+    <sprite>sprites\spr_textbox</sprite>
+    <sprite>sprites\spr_textboxarrow</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_test_npc</sprite>
     <sprite>sprites\spr_expr_2_0</sprite>
@@ -38,6 +51,7 @@
       <sprite>sprites\spr_hpbar</sprite>
       <sprite>sprites\spr_stambar</sprite>
     </sprites>
+    <sprite>sprites\spr_jellyport</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -63,10 +77,22 @@
       <script>scripts\scr_get_input.gml</script>
       <script>scripts\scr_get_face.gml</script>
     </scripts>
+    <script>scripts\scr_cutin.gml</script>
+    <script>scripts\scr_drawqbox.gml</script>
+    <script>scripts\scr_name.gml</script>
+    <script>scripts\scr_option.gml</script>
+    <script>scripts\scr_qboxcheck.gml</script>
+    <script>scripts\scr_stredit.gml</script>
+    <script>scripts\scr_tcolorget.gml</script>
     <script>scripts\scr_text.gml</script>
+    <script>scripts\scr_textbox.gml</script>
+    <script>scripts\scr_charactercheck.gml</script>
+    <script>scripts\scr_choices.gml</script>
+    <script>scripts\scr_cicount.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_main</font>
+    <font>fonts\fnt_textbox</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -74,6 +100,7 @@
     <object>objects\obj_view</object>
     <object>objects\obj_dash_effect</object>
     <object>objects\obj_enemy_slime</object>
+    <object>objects\obj_npc</object>
     <object>objects\obj_lifeform_parent</object>
     <object>objects\obj_damage</object>
     <object>objects\obj_player_stats</object>
@@ -86,8 +113,8 @@
     <object>objects\obj_fireball</object>
     <object>objects\obj_exp_2_0</object>
     <object>objects\obj_arrow</object>
+    <object>objects\obj_textbox</object>
     <object>objects\obj_sign</object>
-    <object>objects\obj_npc2</object>
     <objects name="Texts">
       <object>objects\obj_text_texture_room</object>
       <object>objects\obj_text_big_guy</object>
@@ -95,7 +122,6 @@
       <object>objects\obj_text_dmg_buff</object>
       <object>objects\obj_text_slimes</object>
     </objects>
-    <object>objects\obj_text</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>
