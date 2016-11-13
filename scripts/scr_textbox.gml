@@ -17,9 +17,7 @@ when using the textbox prompts.
 switch(argument0)
 {
   case 1:
-  scr_cicount(0,10);
-    scr_cutin(0,spr_jellyport,245,-1,0,1);
-    scr_name("Special Jelly",2,9);
+    scr_name("Special Jelly",6,9);
     scr_text("Welcome to the testing zone!");
     scr_text("I am the current king!");
     scr_text("What makes me different from the other jellies?");
@@ -31,21 +29,21 @@ switch(argument0)
     scr_text(">The high voice can be used for females.");
     scr_name("",0,1);
     scr_text("@(And there's a thought voice as well.)");
-    scr_name("Special Jelly",2,1);
+    scr_name("Special Jelly",6,1);
     scr_text("_Another thing you can do in this engine is add a pause.]  #Wait, do you hear something?");
     scr_name("Stenli",2,1);
-    scr_text("<~GRRRRRRRRRRRRRRAAAARRRRGGHHHHHHHHHH~!!");
-    scr_name("Special Jelly",2,1);
-    scr_text("_Oh, master. Hello!");
+    scr_text("<~GRRRRR~RRRRR~RRRA~AAARRR~RGGHH~HHHHHHHH~!!");
+    scr_name("Special Jelly",6,1);
+    scr_text("_Oh, master. `#It's nice to see you again.");
     scr_name("Stenli",2,1);
     scr_text("Little mortal jelly, #go make me some coffee.");
-    scr_name("Special Jelly",2,3);
-    scr_text("Of course, master...] Sigh... #I'm special, I'll be like him someday.");
-    scr_text("What makes me so special? #I'm the first NPC.");
+    scr_name("Special Jelly",6,3);
+    scr_text("Of course, master...] Sigh... #]I'm special, I'll be like him someday.");
+    scr_text("What makes me so special? `#I'm the first NPC.");
     scr_text("I will be in the history books!}#I will be popular!");
-    scr_name("King Jelly",2,1);
-    scr_text("\0I am King Jelly!\ Haha!.`");
-    scr_name("Special Jelly",2,2);
+    scr_name("King Jelly",4,1);
+    scr_text("\0I will be King Jelly!\ Haha!.`");
+    scr_name("Special Jelly",6,2);
     scr_text("Well,` maybe some day.");
     break; //ALWAYS BREAK IN SWITCH STATEMENTS!!!!
-  }
+}
