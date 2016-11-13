@@ -114,7 +114,6 @@
     <object>objects\obj_exp_2_0</object>
     <object>objects\obj_arrow</object>
     <object>objects\obj_textbox</object>
-    <object>objects\obj_sign</object>
     <objects name="Texts">
       <object>objects\obj_text_texture_room</object>
       <object>objects\obj_text_big_guy</object>

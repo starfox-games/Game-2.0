@@ -26,6 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>talk=0;
+talked=0;
 </string>
           </argument>
         </arguments>
@@ -103,6 +104,10 @@ if (talk=1)
 {
   alarm[0]=20
 }
+if(talked==1 &amp;&amp; alarm[0] == -1)
+{
+talked=0;
+}
 </string>
           </argument>
         </arguments>
@@ -127,12 +132,15 @@ if (talk=1)
             <kind>1</kind>
             <string>if(instance_exists(obj_player))
 {
+if(talked==0)
+{
 if(keyboard_check_pressed(ord('Z')))
 {
 if(global.pause=false)
 {
 global.pause=true;
 obj_player.spd=0;
+talked=1;
 obj_player_stats.stamina=0;
 obj_player_stats.maxstamina=0;
 with (instance_create(0,0,obj_textbox)) {
@@ -141,6 +149,8 @@ with (instance_create(0,0,obj_textbox)) {
 }
 }
 }
+}
+
 
 </string>
           </argument>

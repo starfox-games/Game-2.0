@@ -117,7 +117,6 @@
     <instance objName="obj_text_big_guy" x="678" y="612" name="inst_AB0DA624" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_text_slimes" x="953" y="709" name="inst_825B1030" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_slime_big" x="1144" y="111" name="inst_3EB14418" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_sign" x="299" y="538" name="inst_8D46903E" locked="0" code="" scaleX="0.689999997615814" scaleY="0.740000009536743" colour="4294967295" rotation="0"/>
     <instance objName="obj_sword" x="109" y="413" name="inst_A5078F78" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
     <instance objName="obj_chicken_buff" x="356" y="412" name="inst_8CB71619" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="410" y="35" name="inst_E9B8118A" locked="0" code="" scaleX="1" scaleY="17.90625" colour="4294967295" rotation="0"/>
