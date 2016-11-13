@@ -23,11 +23,11 @@
     <sprite>sprites\spr_turtle</sprite>
     <sprite>sprites\spr_sign</sprite>
     <sprite>sprites\spr_sword</sprite>
+    <sprite>sprites\spr_namebox</sprite>
     <sprite>sprites\spr_arrow</sprite>
     <sprite>sprites\spr_chicken_buff</sprite>
     <sprite>sprites\spr_turtle_dead</sprite>
     <sprite>sprites\spr_expr</sprite>
-    <sprite>sprites\spr_namebox</sprite>
     <sprite>sprites\spr_questionbox</sprite>
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_textboxarrow</sprite>
