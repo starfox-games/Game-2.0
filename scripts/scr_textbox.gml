@@ -36,13 +36,13 @@ switch(argument0)
     scr_name("Stenli",2,1);
     scr_text("<~GRRRRRRRRRRRRRRAAAARRRRGGHHHHHHHHHH~!!");
     scr_name("Special Jelly",2,1);
-    scr_text("_You've also probably noticed the name box.`#This is also fully customizable.");
+    scr_text("_Oh, master. Hello!");
     scr_name("Stenli",2,1);
-    scr_text("Malka mursho spri da govorish gluposti!");
+    scr_text("Little mortal jelly, #go make me some coffee.");
     scr_name("Special Jelly",2,3);
-    scr_text("Of course,` master...Sigh...");
-    scr_text("What makes me so special #is that I'm the first NPC.");
-    scr_text("I will be in the history books!,}#I will be popular!");
+    scr_text("Of course, master...] Sigh... #I'm special, I'll be like him someday.");
+    scr_text("What makes me so special? #I'm the first NPC.");
+    scr_text("I will be in the history books!}#I will be popular!");
     scr_name("King Jelly",2,1);
     scr_text("\0I am King Jelly!\ Haha!.`");
     scr_name("Special Jelly",2,2);

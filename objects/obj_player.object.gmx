@@ -436,36 +436,6 @@ draw_self();
         </arguments>
       </action>
     </event>
-    <event eventtype="9" enumb="90">
-      <action>
-        <libid>1</libid>
-        <id>603</id>
-        <kind>7</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>2</exetype>
-        <functionname></functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>1</kind>
-            <string>switch(direction)
-{
-  case 0: a=instance_position(x+16,y,obj_npc); if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
-  case 90: a=instance_position(x,y-16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
-  case 180: a=instance_position(x-16,y,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
-  case 270: a=instance_position(x,y+16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
-  default: a=instance_position(x,y+16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
-}
-</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
     <event eventtype="10" enumb="72">
       <action>
         <libid>1</libid>
