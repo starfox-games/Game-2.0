@@ -129,64 +129,9 @@
     <instance objName="obj_arrow" x="691" y="680" name="inst_F54791EA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_wall" x="32" y="256" name="inst_4E84C932" locked="0" code="" scaleX="12.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_npc" x="906" y="843" name="inst_B00983F4" locked="0" code="text_id=1;&#xA;" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="892" y="798" name="inst_548379E9" locked="0" code="" scaleX="1.19000005722046" scaleY="1.02999997138977" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="892" y="798" name="inst_548379E9" locked="0" code="" scaleX="1" scaleY="1.0625" colour="4294967295" rotation="0"/>
   </instances>
-  <tiles>
-    <tile bgName="bg_stone" x="361" y="791" w="64" h="64" xo="0" yo="0" id="10000001" name="inst_8B1FB874" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="727" w="64" h="64" xo="0" yo="0" id="10000002" name="inst_8523003A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="663" w="64" h="64" xo="0" yo="0" id="10000003" name="inst_8BC211A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="599" w="64" h="64" xo="0" yo="0" id="10000004" name="inst_C2A85394" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="535" w="64" h="64" xo="0" yo="0" id="10000005" name="inst_99B8374F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="471" w="64" h="64" xo="0" yo="0" id="10000006" name="inst_6DCC6905" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="407" w="64" h="64" xo="0" yo="0" id="10000007" name="inst_534369BF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="343" w="64" h="64" xo="0" yo="0" id="10000008" name="inst_DA7E7C94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="361" y="279" w="64" h="64" xo="0" yo="0" id="10000009" name="inst_A787FD88" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="279" w="64" h="64" xo="0" yo="0" id="10000010" name="inst_1D031B94" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="343" w="64" h="64" xo="0" yo="0" id="10000011" name="inst_C2F3E0F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="407" w="64" h="64" xo="0" yo="0" id="10000012" name="inst_86AA5964" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="471" w="64" h="64" xo="0" yo="0" id="10000013" name="inst_F03A2C06" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="535" w="64" h="64" xo="0" yo="0" id="10000014" name="inst_8F1BB918" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="599" w="64" h="64" xo="0" yo="0" id="10000015" name="inst_5A6145BC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="663" w="64" h="64" xo="0" yo="0" id="10000016" name="inst_8D71D85C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="727" w="64" h="64" xo="0" yo="0" id="10000017" name="inst_C6203EC7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="297" y="791" w="64" h="64" xo="0" yo="0" id="10000018" name="inst_D7F15DEB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="791" w="64" h="64" xo="0" yo="0" id="10000019" name="inst_ED5473B5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="791" w="64" h="64" xo="0" yo="0" id="10000020" name="inst_1D769039" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="791" w="64" h="64" xo="0" yo="0" id="10000021" name="inst_3C71E8F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="727" w="64" h="64" xo="0" yo="0" id="10000022" name="inst_CF926073" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="663" w="64" h="64" xo="0" yo="0" id="10000023" name="inst_6B16E79E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="599" w="64" h="64" xo="0" yo="0" id="10000024" name="inst_AB354A68" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="535" w="64" h="64" xo="0" yo="0" id="10000027" name="inst_9B3E16C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="471" w="64" h="64" xo="0" yo="0" id="10000028" name="inst_28A252F1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="407" w="64" h="64" xo="0" yo="0" id="10000029" name="inst_1ED25B7F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="343" w="64" h="64" xo="0" yo="0" id="10000030" name="inst_7A4F30A8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="233" y="279" w="64" h="64" xo="0" yo="0" id="10000031" name="inst_91E426A8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="279" w="64" h="64" xo="0" yo="0" id="10000032" name="inst_CA6DBA9C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="343" w="64" h="64" xo="0" yo="0" id="10000033" name="inst_2DF9B909" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="407" w="64" h="64" xo="0" yo="0" id="10000034" name="inst_42A2EAC5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="471" w="64" h="64" xo="0" yo="0" id="10000035" name="inst_102EC8CB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="535" w="64" h="64" xo="0" yo="0" id="10000036" name="inst_6E288034" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="599" w="64" h="64" xo="0" yo="0" id="10000037" name="inst_B64405CD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="663" w="64" h="64" xo="0" yo="0" id="10000038" name="inst_186C5BE9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="169" y="727" w="64" h="64" xo="0" yo="0" id="10000039" name="inst_F8A72829" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="727" w="64" h="64" xo="0" yo="0" id="10000040" name="inst_44CAC48A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="663" w="64" h="64" xo="0" yo="0" id="10000041" name="inst_41EA6F88" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="599" w="64" h="64" xo="0" yo="0" id="10000042" name="inst_CCFF329D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="535" w="64" h="64" xo="0" yo="0" id="10000043" name="inst_95C17CAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="471" w="64" h="64" xo="0" yo="0" id="10000044" name="inst_61C1B3F9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="407" w="64" h="64" xo="0" yo="0" id="10000045" name="inst_648C6FFE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="343" w="64" h="64" xo="0" yo="0" id="10000046" name="inst_7444D98F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="105" y="279" w="64" h="64" xo="0" yo="0" id="10000047" name="inst_6F4287FC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="279" w="64" h="64" xo="0" yo="0" id="10000048" name="inst_856404ED" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="343" w="64" h="64" xo="0" yo="0" id="10000049" name="inst_A11ECE77" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="407" w="64" h="64" xo="0" yo="0" id="10000050" name="inst_3F69B767" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="471" w="64" h="64" xo="0" yo="0" id="10000051" name="inst_4670BAAD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="535" w="64" h="64" xo="0" yo="0" id="10000052" name="inst_83CC9BCD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="599" w="64" h="64" xo="0" yo="0" id="10000053" name="inst_24FCBF60" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="663" w="64" h="64" xo="0" yo="0" id="10000054" name="inst_62F791EA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="727" w="64" h="64" xo="0" yo="0" id="10000055" name="inst_89BBA36E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_stone" x="41" y="791" w="64" h="64" xo="0" yo="0" id="10000056" name="inst_15554BE1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-  </tiles>
+  <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
   <PhysicsWorldLeft>0</PhysicsWorldLeft>
