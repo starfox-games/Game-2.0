@@ -459,6 +459,7 @@ draw_self();
   case 90: a=instance_position(x,y-16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
   case 180: a=instance_position(x-16,y,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
   case 270: a=instance_position(x,y+16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
+  default: a=instance_position(x,y+16,obj_npc) if a&gt;0 and canmove=1 and a.talk=0 {canmove=0; a.talk=1; sound_play(snd_talkinit); global.pause=true;} break;
 }
 </string>
           </argument>
