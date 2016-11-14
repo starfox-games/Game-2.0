@@ -16,7 +16,9 @@ when using the textbox prompts.
 */
 switch(argument0)
 {
-  case 1:
+  case 1: //Test Jelly
+    scr_cicount(1,19);
+    scr_cutin(0,spr_talking1,245,-1,0,19);
     scr_name("Special Jelly",6,9);
     scr_text("Welcome to the testing zone!");
     scr_text("I am the current king!");
@@ -47,3 +49,4 @@ switch(argument0)
     scr_text("Well,` maybe some day.");
     break; //ALWAYS BREAK IN SWITCH STATEMENTS!!!!
 }
+
