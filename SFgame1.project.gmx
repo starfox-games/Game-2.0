@@ -116,6 +116,7 @@
     <object>objects\obj_sword</object>
     <object>objects\obj_fireball</object>
     <object>objects\obj_exp_2_0</object>
+    <object>objects\obj_inv_wall</object>
     <object>objects\obj_arrow</object>
     <object>objects\obj_textbox</object>
     <objects name="Texts">
@@ -125,7 +126,6 @@
       <object>objects\obj_text_dmg_buff</object>
       <object>objects\obj_text_slimes</object>
     </objects>
-    <object>objects\obj_inv_wall</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

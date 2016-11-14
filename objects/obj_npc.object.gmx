@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>talk=0;
 talked=0;
+image_speed=.3;
 </string>
           </argument>
         </arguments>
@@ -170,12 +171,12 @@ with (instance_create(0,0,obj_textbox)) {
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>4,4</point>
+    <point>5.875,4.25</point>
     <point>12,2</point>
-    <point>20,4</point>
-    <point>24,8</point>
-    <point>22,12</point>
-    <point>8,14</point>
-    <point>0,10</point>
+    <point>19.75,3.375</point>
+    <point>24.125,9.25</point>
+    <point>19,12.125</point>
+    <point>9.375,13.25</point>
+    <point>0.875,9.125</point>
   </PhysicsShapePoints>
 </object>
