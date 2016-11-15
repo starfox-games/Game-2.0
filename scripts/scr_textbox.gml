@@ -24,7 +24,7 @@ switch(argument0)
     scr_text("I am the current king!");
     scr_text("What makes me different from the other jellies?");
     scr_text("I can talk, duh, first of all.");
-    scr_text("God Stenli gave me super-powers!");
+    scr_text("The creators gave me super-powers!");
     scr_text("I can also change the 'voice' used#for talking.");
     scr_text("<The low voice is useful for older males.")
     scr_text("_The medium voice is useful for most people.")
@@ -33,14 +33,14 @@ switch(argument0)
     scr_text("@(And there's a thought voice as well.)");
     scr_name("Special Jelly",6,1);
     scr_text("_Another thing you can do in this engine is add a pause.]  #Wait, do you hear something?");
-    scr_name("Stenli",2,1);
-    scr_text("<~GRRRRR~RRRRR~RRRA~AAARRR~RGGHH~HHHHHHHH~!!");
+    scr_name("???",2,1);
+    scr_text("[ Little jelly, what is this mortal doing in my domain?");
     scr_name("Special Jelly",6,1);
-    scr_text("_Oh, master. `#It's nice to see you again.");
-    scr_name("Stenli",2,1);
-    scr_text("Little mortal jelly, #go make me some coffee.");
+    scr_text("_| Oh, master...[ `#This is a test subject of this world.");
+    scr_name("???",2,1);
+    scr_text("| Okay then, #but I'll keep an eye on you");
     scr_name("Special Jelly",6,3);
-    scr_text("Of course, master...] Sigh... #]I'm special, I'll be like him someday.");
+    scr_text("Of course, master...] Sigh... #] I'm special, I'll be like him someday.");
     scr_text("What makes me so special? `#I'm the first NPC.");
     scr_text("I will be in the history books!}#I will be popular!");
     scr_name("King Jelly",4,1);
