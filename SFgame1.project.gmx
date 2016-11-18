@@ -127,6 +127,11 @@
       <object>objects\obj_text_dmg_buff</object>
       <object>objects\obj_text_slimes</object>
     </objects>
+    <objects name="Signs">
+      <object>objects\obj_sign1</object>
+      <object>objects\obj_sign2</object>
+      <object>objects\obj_sign3</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

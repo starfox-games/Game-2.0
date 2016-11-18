@@ -48,5 +48,17 @@ switch(argument0)
     scr_name("Special Jelly",6,2);
     scr_text("Well,` maybe some day.");
     break; //ALWAYS BREAK IN SWITCH STATEMENTS!!!!
+  case 2:
+    scr_name("Sign",2,1);
+    scr_text("Up Ahead: Items and Props");
+    break;
+  case 3:
+    scr_name("Sign",2,1);
+    scr_text("Up Ahead: Boss Jelly");
+    break;
+  case 4:
+    scr_name("Sign",2,1);
+    scr_text("Up Ahead: Slime Forest");
+    break;
 }
 
