@@ -5,14 +5,16 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_voicelow</sound>
-    <sound>sound\snd_voicemid</sound>
-    <sound>sound\snd_voicethought</sound>
-    <sound>sound\snd_button</sound>
-    <sound>sound\snd_talkinit</sound>
-    <sound>sound\snd_click</sound>
-    <sound>sound\snd_textboxclose</sound>
-    <sound>sound\snd_voicehigh</sound>
+    <sounds name="Textbox sounds">
+      <sound>sound\snd_voicemid</sound>
+      <sound>sound\snd_voicelow</sound>
+      <sound>sound\snd_voicethought</sound>
+      <sound>sound\snd_button</sound>
+      <sound>sound\snd_click</sound>
+      <sound>sound\snd_voicehigh</sound>
+      <sound>sound\snd_textboxclose</sound>
+      <sound>sound\snd_talkinit</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_wall</sprite>
@@ -33,7 +35,9 @@
     <sprite>sprites\spr_textbox</sprite>
     <sprite>sprites\spr_textboxarrow</sprite>
     <sprite>sprites\spr_fireball</sprite>
+    <sprite>sprites\spr_talking</sprite>
     <sprite>sprites\spr_test_npc</sprite>
+    <sprite>sprites\spr_inv_wall</sprite>
     <sprite>sprites\spr_expr_2_0</sprite>
     <sprites name="Player">
       <sprite>sprites\spr_player_attack_left</sprite>
@@ -52,9 +56,6 @@
       <sprite>sprites\spr_hpbar</sprite>
       <sprite>sprites\spr_stambar</sprite>
     </sprites>
-    <sprite>sprites\spr_talking1</sprite>
-    <sprite>sprites\sprite34</sprite>
-    <sprite>sprites\spr_inv_wall</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -82,18 +83,20 @@
       <script>scripts\scr_get_input.gml</script>
       <script>scripts\scr_get_face.gml</script>
     </scripts>
-    <script>scripts\scr_cutin.gml</script>
-    <script>scripts\scr_drawqbox.gml</script>
-    <script>scripts\scr_name.gml</script>
-    <script>scripts\scr_option.gml</script>
-    <script>scripts\scr_qboxcheck.gml</script>
-    <script>scripts\scr_stredit.gml</script>
-    <script>scripts\scr_tcolorget.gml</script>
-    <script>scripts\scr_text.gml</script>
-    <script>scripts\scr_textbox.gml</script>
-    <script>scripts\scr_charactercheck.gml</script>
-    <script>scripts\scr_choices.gml</script>
-    <script>scripts\scr_cicount.gml</script>
+    <scripts name="Textbox scripts">
+      <script>scripts\scr_charactercheck.gml</script>
+      <script>scripts\scr_drawqbox.gml</script>
+      <script>scripts\scr_name.gml</script>
+      <script>scripts\scr_cutin.gml</script>
+      <script>scripts\scr_text.gml</script>
+      <script>scripts\scr_option.gml</script>
+      <script>scripts\scr_tcolorget.gml</script>
+      <script>scripts\scr_cicount.gml</script>
+      <script>scripts\scr_qboxcheck.gml</script>
+      <script>scripts\scr_choices.gml</script>
+      <script>scripts\scr_textbox.gml</script>
+      <script>scripts\scr_stredit.gml</script>
+    </scripts>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_main</font>
@@ -110,7 +113,6 @@
     <object>objects\obj_damage</object>
     <object>objects\obj_player_stats</object>
     <object>objects\obj_exp</object>
-    <object>objects\obj_player_new</object>
     <object>objects\obj_turtle</object>
     <object>objects\obj_chicken_buff</object>
     <object>objects\obj_slime_big</object>
@@ -131,6 +133,7 @@
       <object>objects\obj_sign1</object>
       <object>objects\obj_sign2</object>
       <object>objects\obj_sign3</object>
+      <object>objects\obj_sign4</object>
     </objects>
   </objects>
   <rooms name="rooms">

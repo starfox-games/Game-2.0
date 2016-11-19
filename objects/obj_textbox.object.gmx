@@ -947,7 +947,8 @@ else
           <argument>
             <kind>1</kind>
             <string>//DEBUG FUNCTION, PLEASE IGNORE
-with (self) instance_destroy();
+//with (self) instance_destroy();
+
 </string>
           </argument>
         </arguments>

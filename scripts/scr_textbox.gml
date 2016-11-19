@@ -18,35 +18,16 @@ switch(argument0)
 {
   case 1: //Test Jelly
     scr_cicount(1,19);
-    scr_cutin(0,spr_talking1,245,-1,0,19);
+    scr_cutin(0,spr_talking,245,-1,0,19);
     scr_name("Special Jelly",6,9);
     scr_text("Welcome to the testing zone!");
-    scr_text("I am the current king!");
-    scr_text("What makes me different from the other jellies?");
-    scr_text("I can talk, duh, first of all.");
-    scr_text("The creators gave me super-powers!");
-    scr_text("I can also change the 'voice' used#for talking.");
+    scr_text("I am the first NPC.");
+    scr_text("I can change the 'voice' used#for talking.");
     scr_text("<The low voice is useful for older males.")
     scr_text("_The medium voice is useful for most people.")
     scr_text(">The high voice can be used for females.");
-    scr_name("",0,1);
     scr_text("@(And there's a thought voice as well.)");
-    scr_name("Special Jelly",6,1);
-    scr_text("_Another thing you can do in this engine is add a pause.]  #Wait, do you hear something?");
-    scr_name("???",2,1);
-    scr_text("[ Little jelly, what is this mortal doing in my domain?");
-    scr_name("Special Jelly",6,1);
-    scr_text("_| Oh, master...[ `#This is a test subject of this world.");
-    scr_name("???",2,1);
-    scr_text("| Okay then, #but I'll keep an eye on you");
-    scr_name("Special Jelly",6,3);
-    scr_text("Of course, master...] Sigh... #] I'm special, I'll be like him someday.");
-    scr_text("What makes me so special? `#I'm the first NPC.");
-    scr_text("I will be in the history books!}#I will be popular!");
-    scr_name("King Jelly",4,1);
-    scr_text("\0I will be King Jelly!\ Haha!.`");
-    scr_name("Special Jelly",6,2);
-    scr_text("Well,` maybe some day.");
+    scr_text("A new dialog can be made using scr textbox.");
     break; //ALWAYS BREAK IN SWITCH STATEMENTS!!!!
   case 2:
     scr_name("Sign",2,1);
@@ -59,6 +40,10 @@ switch(argument0)
   case 4:
     scr_name("Sign",2,1);
     scr_text("Up Ahead: Slime Forest");
+    break;
+  case 5:
+    scr_name("Sign",2,1);
+    scr_text("Up Ahead: Invisible Walls");
     break;
 }
 
