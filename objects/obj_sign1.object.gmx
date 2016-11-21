@@ -159,7 +159,7 @@ with (instance_create(0,0,obj_textbox)) {
   </events>
   <PhysicsObject>-1</PhysicsObject>
   <PhysicsObjectSensor>0</PhysicsObjectSensor>
-  <PhysicsObjectShape>0</PhysicsObjectShape>
+  <PhysicsObjectShape>1</PhysicsObjectShape>
   <PhysicsObjectDensity>0</PhysicsObjectDensity>
   <PhysicsObjectRestitution>0.100000001490116</PhysicsObjectRestitution>
   <PhysicsObjectGroup>0</PhysicsObjectGroup>
@@ -169,7 +169,9 @@ with (instance_create(0,0,obj_textbox)) {
   <PhysicsObjectAwake>-1</PhysicsObjectAwake>
   <PhysicsObjectKinematic>0</PhysicsObjectKinematic>
   <PhysicsShapePoints>
-    <point>15,21</point>
-    <point>21,21</point>
+    <point>0,4</point>
+    <point>29,4</point>
+    <point>29,41</point>
+    <point>0,41</point>
   </PhysicsShapePoints>
 </object>
