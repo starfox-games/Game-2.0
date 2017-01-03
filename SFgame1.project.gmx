@@ -55,7 +55,9 @@
       <sprite>sprites\spr_hpbarbg</sprite>
       <sprite>sprites\spr_hpbar</sprite>
       <sprite>sprites\spr_stambar</sprite>
+      <sprite>sprites\spr_icon</sprite>
     </sprites>
+    <sprite>sprites\spr_border</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
