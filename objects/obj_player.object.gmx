@@ -44,6 +44,8 @@ canmove=1
 moving=0
 spell=1;
 index=1;
+cooltime = 30 //Time to delay between castings
+cantoggle = true //If true can use spell
 
 
 
@@ -97,6 +99,27 @@ chickenbuff=0;
             <kind>1</kind>
             <string>///dash timer
 state = scr_move_state;
+</string>
+          </argument>
+        </arguments>
+      </action>
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>cantoggle = true;
 </string>
           </argument>
         </arguments>
@@ -388,13 +411,18 @@ spd-=2;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(spell=1)
+            <string>if(cantoggle=true)
+{
+if(spell=1)
 {
 spell=3;
 }
 else
 {
 spell-=1;
+}
+alarm[0]=cooltime;
+cantoggle=false;
 }
 
 </string>
@@ -419,13 +447,18 @@ spell-=1;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(spell=3)
+            <string>if(cantoggle=true)
+{
+if(spell=3)
 {
 spell=1;
 }
 else
 {
 spell+=1;
+}
+alarm[0] = cooltime;
+cantoggle = false;
 }
 </string>
           </argument>
