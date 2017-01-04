@@ -58,6 +58,8 @@
       <sprite>sprites\spr_icon</sprite>
     </sprites>
     <sprite>sprites\spr_border</sprite>
+    <sprite>sprites\spr_fireball_2</sprite>
+    <sprite>sprites\spr_heal</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -102,6 +104,7 @@
       <script>scripts\scr_textbox.gml</script>
       <script>scripts\scr_stredit.gml</script>
     </scripts>
+    <script>scripts\scr_part_heal_init.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\fnt_main</font>
@@ -140,6 +143,7 @@
       <object>objects\obj_sign3</object>
       <object>objects\obj_sign4</object>
     </objects>
+    <object>objects\obj_ps</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_test</room>

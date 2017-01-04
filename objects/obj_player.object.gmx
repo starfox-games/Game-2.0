@@ -42,9 +42,9 @@ sprint=2;
 chickenbuff=0;
 canmove=1
 moving=0
-spell=1;
+global.spell=1;
 index=1;
-cooltime = 30 //Time to delay between castings
+cooltime = 15 //Time to delay between castings
 cantoggle = true //If true can use spell
 
 
@@ -186,7 +186,7 @@ obj_player.spd=0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>switch(spell)
+            <string>switch(global.spell)
 {
 case 1 : index = 1;break;
 case 2 : index = 2;break;
@@ -413,13 +413,13 @@ spd-=2;
             <kind>1</kind>
             <string>if(cantoggle=true)
 {
-if(spell=1)
+if(global.spell=1)
 {
-spell=3;
+global.spell=3;
 }
 else
 {
-spell-=1;
+global.spell-=1;
 }
 alarm[0]=cooltime;
 cantoggle=false;
@@ -449,13 +449,13 @@ cantoggle=false;
             <kind>1</kind>
             <string>if(cantoggle=true)
 {
-if(spell=3)
+if(global.spell=3)
 {
-spell=1;
+global.spell=1;
 }
 else
 {
-spell+=1;
+global.spell+=1;
 }
 alarm[0] = cooltime;
 cantoggle = false;
@@ -554,6 +554,42 @@ draw_self();
 draw_sprite(spr_border,1,view_xview[0]+15,view_yview[0]+165);
 
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="9" enumb="69">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(global.spell=2)
+{
+
+    if(obj_player_stats.max_hp-3&gt;=obj_player_stats.hp)
+    {
+    
+        obj_player_stats.hp +=3;
+    }
+    else
+    {
+    obj_player_stats.hp=obj_player_stats.max_hp;
+    }
+    
+}
 </string>
           </argument>
         </arguments>
