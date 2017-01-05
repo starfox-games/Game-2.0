@@ -42,7 +42,7 @@ switch(sprite_index)
          break;
         
          case spr_player_attack_right:
-         xx=x +10;
+         xx=x+10;
          yy=y+2;
          break;
 }

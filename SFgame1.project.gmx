@@ -60,6 +60,10 @@
     <sprite>sprites\spr_border</sprite>
     <sprite>sprites\spr_fireball_2</sprite>
     <sprite>sprites\spr_heal</sprite>
+    <sprite>sprites\spr_start_button</sprite>
+    <sprite>sprites\spr_exit_button</sprite>
+    <sprite>sprites\spr_controls</sprite>
+    <sprite>sprites\spr_controls_button</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_grass</background>
@@ -144,8 +148,13 @@
       <object>objects\obj_sign4</object>
     </objects>
     <object>objects\obj_ps</object>
+    <object>objects\obj_start_button</object>
+    <object>objects\obj_exit_button</object>
+    <object>objects\obj_controls</object>
+    <object>objects\obj_controls_button</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_menu</room>
     <room>rooms\rm_test</room>
   </rooms>
   <help>
