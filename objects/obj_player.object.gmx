@@ -551,7 +551,6 @@ draw_self();
           <argument>
             <kind>1</kind>
             <string>draw_sprite(spr_icon,index,view_xview[0]+21,view_yview[0]+170);
-draw_sprite(spr_border,1,view_xview[0]+15,view_yview[0]+165);
 
 
 </string>
