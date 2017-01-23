@@ -36,7 +36,6 @@
     <sprite>sprites\spr_textboxarrow</sprite>
     <sprite>sprites\spr_fireball</sprite>
     <sprite>sprites\spr_talking</sprite>
-    <sprite>sprites\spr_test_npc</sprite>
     <sprite>sprites\spr_inv_wall</sprite>
     <sprite>sprites\spr_expr_2_0</sprite>
     <sprites name="Player">
